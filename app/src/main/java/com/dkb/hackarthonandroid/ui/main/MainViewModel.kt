@@ -1,4 +1,4 @@
-package com.example.hackarthonandroid.ui.main
+package com.dkb.hackarthonandroid.ui.main
 
 import androidx.lifecycle.ViewModel
 
