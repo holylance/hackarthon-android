@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_smallest">4dp</dimen>
+    <dimen name="spacing_smaller">8dp</dimen>
+    <dimen name="spacing_small">12dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+
+    <dimen name="stroke_focused">2dp</dimen>
+    <dimen name="stroke_unfocused">1dp</dimen>
+
+    <dimen name="text_size_smaller">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_larger">24sp</dimen>
+    <dimen name="text_size_huge">32sp</dimen>
+    <dimen name="text_size_huger">48sp</dimen>
+    <dimen name="text_size_wide">60sp</dimen>
+    <dimen name="text_size_maximum">96sp</dimen>
+
+    <!-- General -->
+    <dimen name="corner_radius">8dp</dimen>
+</resources>

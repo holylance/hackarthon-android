@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="dkb_brand_blue">#148DEA</color>
+    <color name="dkb_brand_blue_dark">#0A78CC</color>
+
+    <color name="blue100">#001C36</color>
+    <color name="blue90">#002E5C</color>
+    <color name="blue80">#003E7D</color>
+    <color name="blue70">#045EB8</color>
+    <color name="blue60">#0976D6</color>
+    <color name="blue50">#36A4F7</color>
+    <color name="blue40">#78C4FF</color>
+    <color name="blue30">#ABDBFF</color>
+    <color name="blue20">#CFEAFF</color>
+    <color name="blue10">#E5F4FF</color>
+
+    <color name="teal100">#0A2026</color>
+    <color name="teal90">#0C333B</color>
+    <color name="teal80">#0D444C</color>
+    <color name="teal70">#0F6670</color>
+    <color name="teal60">#0E8187</color>
+    <color name="teal50">#12B0AB</color>
+    <color name="teal40">#2AD1C9</color>
+    <color name="teal30">#7AE9DC</color>
+    <color name="teal20">#B8F2EA</color>
+    <color name="teal10">#DFF7F3</color>
+
+    <color name="black">#000000</color>
+    <color name="grey100">#1C1D1F</color>
+    <color name="grey90">#2D2E30</color>
+    <color name="grey80">#3D3E40</color>
+    <color name="grey70">#5A5D61</color>
+    <color name="grey60">#6E7278</color>
+    <color name="grey50">#8F949C</color>
+    <color name="grey40">#B4BAC2</color>
+    <color name="grey30">#D0D5DB</color>
+    <color name="grey20">#E4E7ED</color>
+    <color name="grey10">#F0F3F7</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="coral100">#33100D</color>
+    <color name="coral90">#521A14</color>
+    <color name="coral80">#6E2218</color>
+    <color name="coral70">#A33322</color>
+    <color name="coral60">#CC3E2B</color>
+    <color name="coral50">#FA6E5F</color>
+    <color name="coral40">#FFA099</color>
+    <color name="coral30">#FFC5C2</color>
+    <color name="coral20">#FFDEDE</color>
+    <color name="coral10">#FFEDED</color>
+
+    <color name="white_transparent_50">#50FFFFFF</color>
+
 </resources>

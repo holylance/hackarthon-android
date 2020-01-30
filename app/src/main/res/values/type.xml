@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Hackathon" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/euclid_square_regular</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Medium">
+        <item name="android:fontFamily">@font/euclid_square_medium</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Semibold">
+        <item name="android:fontFamily">@font/euclid_square_semibold</item>
+    </style>
+
+    <!-- Tertiary styles -->
+    <style name="TextAppearance.Hackathon.Tertiary" />
+
+    <style name="TextAppearance.Hackathon.Tertiary.L">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Tertiary.M">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Tertiary.S">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <!-- Header styles -->
+    <style name="TextAppearance.Hackathon.Head" parent="TextAppearance.Hackathon.Semibold" />
+
+    <style name="TextAppearance.Hackathon.Head.H1">
+        <item name="android:textSize">@dimen/text_size_maximum</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Head.H2">
+        <item name="android:textSize">@dimen/text_size_wide</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Head.H3">
+        <item name="android:textSize">@dimen/text_size_huger</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Head.H4">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Head.H5">
+        <item name="android:textSize">@dimen/text_size_larger</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Head.H6">
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <!-- Body styles -->
+    <style name="TextAppearance.Hackathon.Body" parent="TextAppearance.Hackathon" />
+
+    <style name="TextAppearance.Hackathon.Body.XXL">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Body.XL">
+        <item name="android:textSize">@dimen/text_size_larger</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Body.L">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Body.M">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Body.S">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Body.XS">
+        <item name="android:textSize">@dimen/text_size_smaller</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Body.L.Strong">
+        <item name="android:fontFamily">@font/euclid_square_medium</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Body.M.Strong">
+        <item name="android:fontFamily">@font/euclid_square_medium</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Body.S.Strong">
+        <item name="android:fontFamily">@font/euclid_square_medium</item>
+    </style>
+
+    <style name="TextAppearance.Hackathon.Body.XS.Strong">
+        <item name="android:fontFamily">@font/euclid_square_medium</item>
+    </style>
+</resources>
