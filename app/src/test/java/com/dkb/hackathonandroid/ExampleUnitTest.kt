@@ -1,4 +1,4 @@
-package com.dkb.hackarthonandroid
+package com.dkb.hackathonandroid
 
 import org.junit.Test
 

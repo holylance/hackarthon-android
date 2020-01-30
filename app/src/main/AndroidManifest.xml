@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dkb.hackarthonandroid">
+    package="com.dkb.hackathonandroid">
 
     <application
         android:allowBackup="true"
@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.dkb.hackarthonandroid.ui.login.LoginActivity"></activity>
+        <activity android:name="com.dkb.hackathonandroid.ui.login.LoginActivity"></activity>
         <activity
-            android:name="com.dkb.hackarthonandroid.ui.splash.SplashActivity"
-            android:theme="@style/Theme.BankingApp.Splash">
+            android:name="com.dkb.hackathonandroid.ui.splash.SplashActivity"
+            android:theme="@style/Theme.Hackathon.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.dkb.hackarthonandroid.ui.main.MainActivity"
+            android:name="com.dkb.hackathonandroid.ui.main.MainActivity"
             android:launchMode="singleTop"
             android:windowSoftInputMode="adjustResize" />
     </application>

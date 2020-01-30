@@ -1,15 +1,69 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/blue50</item>
+        <item name="colorPrimaryDark">@color/blue70</item>
+        <item name="colorAccent">@color/coral60</item>
+        <item name="colorError">@color/coral60</item>
+        <item name="colorControlActivated">@color/blue50</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="materialButtonStyle">@style/Widget.Hackathon.Button</item>
+        <item name="textInputStyle">@style/Widget.Hackathon.EditText</item>
+        <item name="android:textViewStyle">@style/Widget.Hackathon.TextView</item>
     </style>
 
-    <style name="Theme.BankingApp.Splash" parent="Theme.AppCompat.NoActionBar">
+    <style name="Theme.Hackathon.Splash" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_screen</item>
         <item name="android:statusBarColor">@color/dkb_brand_blue</item>
+    </style>
+
+    <style name="Widget.Hackathon.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:height">60dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Hackathon.Body.M.Strong</item>
+        <item name="android:textColor">@color/blue70</item>
+        <item name="android:backgroundTint">@drawable/button_background</item>
+        <item name="cornerRadius">@dimen/corner_radius</item>
+        <item name="iconTint">@color/blue70</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Widget.Hackathon.EditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius</item>
+        <item name="boxBackgroundColor">@color/blue70</item>
+        <item name="boxStrokeColor">@drawable/edit_text_stroke</item>
+        <item name="boxStrokeWidth">@dimen/stroke_unfocused</item>
+        <item name="boxStrokeWidthFocused">@dimen/stroke_focused</item>
+
+        <item name="hintTextColor">@color/teal60</item>
+        <item name="android:textColorHint">@color/teal60</item>
+
+        <item name="endIconTint">@color/black</item>
+
+        <item name="materialThemeOverlay">@style/Login.Hackathon.ThemeOverlay</item>
+    </style>
+
+    <style name="Login.Hackathon.ThemeOverlay" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="editTextStyle">@style/Widget.Hackathon.TextInputEditText</item>
+        <item name="colorControlActivated">@color/grey70</item>
+    </style>
+
+    <style name="Widget.Hackathon.TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/grey80</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textCursorDrawable">@drawable/edit_text_cursor</item>
+    </style>
+
+    <style name="Widget.Hackathon.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.Hackathon.Body.M</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
     </style>
 </resources>

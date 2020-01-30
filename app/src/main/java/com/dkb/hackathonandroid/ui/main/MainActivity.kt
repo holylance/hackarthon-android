@@ -1,8 +1,8 @@
-package com.dkb.hackarthonandroid.ui.main
+package com.dkb.hackathonandroid.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.dkb.hackarthonandroid.R
+import com.dkb.hackathonandroid.R
 
 class MainActivity : AppCompatActivity() {
 
