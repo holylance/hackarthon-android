@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_margin="@dimen/spacing_normal"
-            android:src="@drawable/dkb_logo_with_claim_white"
+            android:src="@drawable/dkb_logo_with_claim_blue"
             app:layout_constraintBottom_toTopOf="@id/top_guideline"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:barrierDirection="bottom"
-            app:constraint_referenced_ids="top_guideline,logo" />
+            app:constraint_referenced_ids="logo" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/username_layout"
