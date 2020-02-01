@@ -1,11 +1,13 @@
 package com.dkb.hackathonandroid.ui.login
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.dkb.hackathonandroid.R
+import com.dkb.hackathonandroid.ui.share.BaseActivity
+import io.reactivex.android.schedulers.AndroidSchedulers
 import kotlinx.android.synthetic.main.activity_login.*
 
-class LoginActivity : AppCompatActivity() {
+class LoginActivity : BaseActivity() {
 
     private val viewModel = LoginViewModel(this)
 
@@ -14,7 +16,15 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         login.setOnClickListener {
-            viewModel.onDirectToMainActivity()
+            viewModel.helloWorld()
+                .observeOn(AndroidSchedulers.mainThread())
+                .doOnSuccess {
+                    Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
+                }
+                .doOnError {
+
+                }
+                .subscribe()
         }
     }
 }

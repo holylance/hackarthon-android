@@ -2,13 +2,12 @@ package com.dkb.hackathonandroid.ui.util.network
 
 import com.dkb.hackathonandroid.ui.util.model.User
 import io.reactivex.Single
-import retrofit2.Retrofit
 import retrofit2.http.GET
 import retrofit2.http.POST
 
 interface ApiService {
     companion object {
-        fun create(retrofit: Retrofit): ApiService {
+        fun create(): ApiService {
             return ApiFactory.createService(ApiService::class.java)
         }
     }
