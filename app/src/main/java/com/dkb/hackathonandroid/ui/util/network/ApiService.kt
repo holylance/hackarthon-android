@@ -1,5 +1,6 @@
 package com.dkb.hackathonandroid.ui.util.network
 
+import com.dkb.hackathonandroid.ui.util.model.TestDTO
 import com.dkb.hackathonandroid.ui.util.model.User
 import io.reactivex.Single
 import retrofit2.http.GET
@@ -13,7 +14,7 @@ interface ApiService {
     }
 
     @GET("helloworld")
-    fun getHelloWorld(): Single<String>
+    fun getHelloWorld(): Single<TestDTO>
 
     @GET("user/all")
     fun getUserAll(): Single<List<User>>

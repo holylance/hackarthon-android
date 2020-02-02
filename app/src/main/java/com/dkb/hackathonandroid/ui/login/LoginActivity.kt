@@ -1,6 +1,7 @@
 package com.dkb.hackathonandroid.ui.login
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import com.dkb.hackathonandroid.R
 import com.dkb.hackathonandroid.ui.share.BaseActivity
@@ -18,13 +19,10 @@ class LoginActivity : BaseActivity() {
         login.setOnClickListener {
             viewModel.helloWorld()
                 .observeOn(AndroidSchedulers.mainThread())
-                .doOnSuccess {
-                    Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
-                }
-                .doOnError {
-
-                }
-                .subscribe()
+                .subscribe(
+                    { Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show() },
+                    { Log.d("Error", it.toString()) }
+                )
         }
     }
 }

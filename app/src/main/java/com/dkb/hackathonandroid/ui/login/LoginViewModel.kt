@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import com.dkb.hackathonandroid.ui.main.MainActivity
 import com.dkb.hackathonandroid.ui.share.BaseViewModel
+import com.dkb.hackathonandroid.ui.util.model.TestDTO
 import com.dkb.hackathonandroid.ui.util.model.User
 import com.dkb.hackathonandroid.ui.util.network.ApiService
 import io.reactivex.Single
@@ -15,13 +16,13 @@ class LoginViewModel(
 
     private val service = ApiService.create()
 
-    fun login(userName: String, password: String): Single<User> {
-        return service.login()
+    fun helloWorld(): Single<TestDTO> {
+        return service.getHelloWorld()
             .subscribeOn(Schedulers.io())
     }
 
-    fun helloWorld(): Single<String> {
-        return service.getHelloWorld()
+    fun login(userName: String, password: String): Single<User> {
+        return service.login()
             .subscribeOn(Schedulers.io())
     }
 

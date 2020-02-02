@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class ApiFactory {
     companion object {
-        private const val URL = "https://localhost:8080/"
+        private const val URL = "http://192.168.178.54:8080/"
         private val httpClient = OkHttpClient.Builder()
         private val builder = Retrofit.Builder()
             .baseUrl(URL)
