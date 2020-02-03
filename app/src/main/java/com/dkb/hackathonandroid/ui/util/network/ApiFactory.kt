@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class ApiFactory {
     companion object {
-        private const val URL = "http://192.168.178.54:8080/"
+        private const val URL = "http://10.0.2.2:8080/"
         private val httpClient = OkHttpClient.Builder()
         private val builder = Retrofit.Builder()
             .baseUrl(URL)
@@ -17,7 +17,7 @@ class ApiFactory {
 
         private val retrofit = builder.build()
         fun <S> createService(serviceClass: Class<S>): S {
-            return retrofit.create(serviceClass)
+            return builder.build().create(serviceClass)
         }
     }
 

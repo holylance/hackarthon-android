@@ -17,11 +17,13 @@ class LoginActivity : BaseActivity() {
         setContentView(R.layout.activity_login)
 
         login.setOnClickListener {
-            viewModel.helloWorld()
+            viewModel.login(
+                username.text.toString(),
+                password.text.toString())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(
                     { Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show() },
-                    { Log.d("Error", it.toString()) }
+                    { Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show() }
                 )
         }
     }
