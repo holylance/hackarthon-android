@@ -22,7 +22,7 @@ class LoginViewModel(
     }
 
     fun login(userName: String, password: String): Single<User> {
-        return service.login()
+        return service.login(userName, password)
             .subscribeOn(Schedulers.io())
     }
 
