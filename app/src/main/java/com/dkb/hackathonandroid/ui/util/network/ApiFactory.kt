@@ -17,7 +17,7 @@ class ApiFactory {
 
         private val retrofit = builder.build()
         fun <S> createService(serviceClass: Class<S>): S {
-            return builder.build().create(serviceClass)
+            return retrofit.create(serviceClass)
         }
     }
 
