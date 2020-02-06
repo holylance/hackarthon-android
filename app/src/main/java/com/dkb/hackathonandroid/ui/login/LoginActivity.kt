@@ -22,7 +22,7 @@ class LoginActivity : BaseActivity() {
                 password.text.toString())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(
-                    { Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show() },
+                    { viewModel.onDirectToMainActivity() },
                     { Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show() }
                 )
         }
